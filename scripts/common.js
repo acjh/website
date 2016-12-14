@@ -361,7 +361,7 @@ function getDate(week, day) {
 function isCurrentWeek(week) {
     var weekOfYear = $.datepicker.iso8601Week(getDate(week, 1));
     var currentWeekOfYear = $.datepicker.iso8601Week(new Date());
-    return weekOfYear == currentWeekOfYear;
+    return weekOfYear == currentWeekOfYear - 6;
 }
 
 /**

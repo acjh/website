@@ -365,6 +365,12 @@ table.two-column-content td {
     padding: 10px 10px;
 }
 
+.sidebar-info {
+    background-color: #dff0d8;
+    display: inline-block;;
+    width: 25%;
+}
+
 .warning-info {
     background-color: #fcf8e3;
     padding: 10px 10px;
